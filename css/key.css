@@ -1,0 +1,40 @@
+@keyframes rotatePattern{
+
+	0%{
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+
+
+	100%{
+		-webkit-transform: rotate(540deg);
+		-ms-transform: rotate(540deg);
+		-o-transform: rotate(540deg);
+		transform: rotate(540deg);
+	}
+
+}
+
+
+@keyframes scaleAndFadeIn{
+
+	0%{
+		-webkit-transform: scale(.2);
+		-ms-transform: scale(.2);
+		-o-transform: scale(.2);
+		transform: scale(.2);
+		opacity: 0;
+	}
+
+
+	100%{
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		-o-transform: scale(1);
+		transform: scale(1);
+		opacity: 1;
+	}
+
+}
